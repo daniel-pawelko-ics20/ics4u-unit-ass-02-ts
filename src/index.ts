@@ -19,7 +19,7 @@ const userString = prompt('Please input a string: ')
  * @param {string} str String
  * @returns {number} highestCount
  */
-function maxRun(str: String): number {
+function maxRun (str: String): number {
   // Return 0 if string is empty
   if (str === '') {
     return 0
